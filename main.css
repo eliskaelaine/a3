@@ -1,14 +1,18 @@
 body {
-    background-color: white;
-
+  font-family: Arial, Helvetica, sans-serif;
+ background-image: url(http://cleanconnectionlaundry.com/wp-content/uploads/2013/08/Clean-White-Towels.jpg);
+  background-position: 300px 100px;
+  background-repeat: no-repeat;
+  background-origin: border-box;
 }
 
 h1 {
-    color: black;
-    margin-left: 20px;
+  padding: 0.3em;
+  margin-top: 0px;
 }
 
 h2 {
+    padding-left: 0em;
     color: black;
     margin-left: 20px;
 }
@@ -19,7 +23,7 @@ img {
 }
 
 p {
-	font-size: 20px;
+	font-size: 16px;
   float: left;
   width: 300px;
   margin: 20px;
@@ -30,19 +34,19 @@ p {
 }
 
 ul {
-	font-size: 20px;
+	font-size: 16px;
 	margin: 20px;
 }
 
 ol {
-	font-size: 20px;
+	font-size: 16px;
 	margin: 20px;
 }
 
 table {
     border-collapse: collapse;
     width: 40%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 table, th, td {
@@ -50,3 +54,35 @@ table, th, td {
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
+
+h2, img, ul, ol, table, th, td, tr {
+    margin-left: 200px;
+}
+
+.header {
+position: absolute;
+left:0px;
+top:0px;
+height: 100px;
+width:1280px;
+z-index: -1;
+background: #DCDCDC; }
+
+.sidebar {height: 645px;
+width:150px;
+position: absolute;
+left: 0px;
+bottom: 0px;
+z-index: -1;
+background-color: #808080; }
+
+.footer {height: 100px;
+position: relative;
+width:1282px;
+top: 20px;
+bottom: 0px;
+left:-10px;
+z-index: -1;
+background-color: #FFD700; }
+
+
